@@ -20,6 +20,12 @@ header {
     padding: 20px 0;
 }
 
+.image{
+    height: 160px;
+    width: 160px;
+    border-radius: 90px;
+}
+
 
 header h1 {
     margin: 0;
