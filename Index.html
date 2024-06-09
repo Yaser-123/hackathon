@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Roadmaps and Courses</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2815a7015d.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/png/jpg" href="Hackathon images/_44147c08-d8bb-48ec-82cb-ac5094b24267.jpg">
+    
+</head>
+<body>
+
+<header>
+    <img class="image" src="Hackathon images/_44147c08-d8bb-48ec-82cb-ac5094b24267.jpg" alt="">
+    <h1>Career Roadmaps and Courses</h1>
+</header>
+
+
+<button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top">&#8593;</button>
+
+<div class="container">
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search for courses...">
+       
+        <button onclick="searchCourses()">Search</button>
+        <button id="modeToggleBtn">Mode</button>
+        <button><a href="#contact">Contact</a></button>
+        <button><a id="modeToggleBtn2" href="#ourteam">Team</a></button>
+    
+    </div>
+
+    <a href="chatbot.html" id="ai-button" target="_blank">AI</a>
+
+    <div class="roadmap">
+        <h2>Your Success Starts Here, Unlock the Doors to Excellence!</h2>
+        <div class="content-wrapper">
+            <p>Welcome to TechTitans, where education meets innovation! We are excited to offer you access to over 65+ cutting-edge courses designed to keep you ahead in today’s fast-paced world. Our curriculum covers the latest trends and technologies, ensuring you gain the skills needed to excel in your field. <br> <br>
+
+                The best part? All our courses are absolutely free! That’s right—no hidden fees, no subscriptions. We believe that quality education should be accessible to everyone, regardless of their financial background. <br> <br>
+                
+                 Start your journey with us and see the difference that a dedicated, modern approach to education can make. <br> <br>
+                
+                Welcome to the future of learning. Welcome to TechTitans.</p>
+            <img src="Hackathon images/hacker.jpg" alt="Data Analyst Roadmap">
+        </div>
+    </div>
+
+    
+    
+
+    <div class="course-list" id="courseList">
+        <!--  Courses  -->
+        <div class="course" id="course1">
+            <h3>Full Stack Web Development</h3>
+            <img src="Hackathon images/full stack.jpeg" alt="Course Image">
+            <p>
+                Platform: FreeCodeCamp<br>
+                Duration: 10 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Full Stack Web Development')">Learn More</button>
+                <a href="Hackathon images/full stack.pdf" target="_blank">
+                <button>Download PDF</button>
+                </a>
+            </div>
+            <div class="course" id="course2">
+                <h3>Data Science and Machine Learning</h3>
+                <img src="Hackathon images/ds and ml.jpeg" alt="Course Image">
+                <p>Platform: Geeksforgeeks<br>
+                Duration: 26 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Data Science and Machine Learning')">Learn More</button>
+                <a href="Hackathon images/ds and ml.pdf" target="_blank">
+                    <button>Download PDF</button>
+                    </a>
+            </div>
+            <div class="course" id="course3">
+                <h3>Mobile App Development</h3>
+                <img src="Hackathon images/App dev.jpeg" alt="Course Image">
+                <p>Platform: My Great Learning<br>
+                Duration: 8 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Mobile App Development')">Learn More</button>
+                <a href="Hackathon images/mobile dev.pdf" target="_blank">
+                    <button>Download PDF</button>
+                    </a>
+            </div>
+            <div class="course" id="course4">
+                <h3>Cybersecurity</h3>
+                <img src="Hackathon images/cybersecurity.jpeg" alt="Course Image">
+                <p>Platform: Udemy<br>
+                Duration: 14 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Cybersecurity')">Learn More</button>
+                <a href="Hackathon images/cybersecurity.pdf" target="_blank">
+                    <button>Download PDF</button>
+                    </a>
+            </div>
+            <div class="course" id="course5">
+                <h3>Cloud Computing</h3>
+                <img src="Hackathon images/cloud computing.jpeg" alt="Course Image">
+                <p>Platform: SimpliLearn<br>
+                Duration: 12 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Cloud Computing')">Learn More</button>
+                <a href="Hackathon images/cloud computing.pdf" target="_blank">
+                    <button>Download PDF</button>
+                    </a>
+            </div>
+            <div class="course" id="course6">
+                <h3>Software Testing and Quality Assurance</h3>
+                <img src="Hackathon images/quality testing.jpeg" alt="Course Image">
+                <p>Platform: My Great Learning<br>
+                Duration: 6 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Software Testing and Quality Assurance')">Learn More</button>
+                <a href="Hackathon images/software testing.pdf" target="_blank">
+                    <button>Download PDF</button>
+                    </a>
+            </div>
+            <div class="course" id="course7">
+                <h3>Artificial Intelligence</h3>
+                <img src="Hackathon images/AI.jpeg" alt="Course Image">
+                <p>Platform: Udemy<br>
+                Duration: ∞ weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Artificial Intelligence')">Learn More</button>
+                <a href="Hackathon images/Artificial Intelligence.pdf" target="_blank">
+                    <button>Download PDF</button>
+                    </a>
+            </div>
+            <div class="course" id="course8">
+                <h3>Blockchain Development</h3>
+                <img src="Hackathon images/Blockchain Development.jpeg" alt="Course Image">
+                <p>Platform: SimpliLearn<br>
+                Duration: 2 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Blockchain Development')">Learn More</button>
+                <a href="Hackathon images/Blockchain Development.pdf" target="_blank">
+                    <button>Download PDF</button>
+                    </a>
+            </div>
+            <div class="course" id="course9">
+                <h3>DevOps</h3>
+                <img src="Hackathon images/devops.jpeg" alt="Course Image">
+                <p>Platform: freeCodeCamp<br>
+                Duration: 10 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('DevOps')">Learn More</button>
+                <a href="Hackathon images/DevOps Engineer.pdf" target="_blank">
+                    <button>Download PDF</button>
+                    </a>
+            </div>
+            <div class="course" id="course10">
+                <h3>Game Development</h3>
+                <img src="Hackathon images/game1.jpeg" alt="Course Image">
+                <p>Platform: Coursera<br>
+                Duration: ∞ weeks<br>
+                Free/Paid: Yes<br>
+                <button onclick="redirectToExternalLink('DeGame Development')">Learn More</button>
+                <a href="Hackathon images/Game Development.pdf" target="_blank">
+                    <button>Download PDF</button>
+                    </a>
+            </div>
+            <div class="course" id="course11">
+                <h3>Software Engineering and Development</h3>
+                <img src="Hackathon images/se.jpeg" alt="Course Image">
+                <p>Platform: Coursera<br>
+                Duration: 4 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Software Engineering and Development')">Learn More</button>
+                <a href="Hackathon images/Software Engineering and Development.pdf" target="_blank">
+                    <button>Download PDF</button>
+                    </a>
+            </div>
+            <div class="course" id="course12">
+                <h3>HTML, CSS, and JavaScript Basics</h3>
+                <img src="Hackathon images/Html,css,js.jpeg" alt="Course Image">
+                <p>Platform: educative<br>
+                Duration: 3 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('HTML, CSS, and JavaScript Basics')">Learn More</button>
+            </div>
+            <div class="course" id="course13">
+                <h3>Front-End Frameworks (React, Angular, Vue)</h3>
+                <img src="Hackathon images/Front-end.jpeg" alt="Course Image">
+                <p>Platform: educative<br>
+                Duration: 8 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Front-End Frameworks (React, Angular, Vue)')">Learn More</button>
+            </div>
+            <div class="course" id="course14">
+                <h3>Backend Development (Node.js, Django, Ruby on Rails)</h3>
+                <img src="Hackathon images/back-end.jpeg" alt="Course Image">
+                <p>Platform: IIt Kanpur<br>
+                Duration: 10 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Backend Development (Node.js, Django, Ruby on Rails)')">Learn More</button>
+            </div>
+            <div class="course" id="course15">
+                <h3>Database Management (SQL, NoSQL)</h3>
+                <img src="Hackathon images/database.jpeg" alt="Course Image">
+                <p>Platform: NPTEL<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Database Management (SQL, NoSQL)')">Learn More</button>
+            </div>
+            <div class="course" id="course16">
+                <h3>Version Control with Git</h3>
+                <img src="Hackathon images/version-control.jpeg" alt="Course Image">
+                <p>Platform: Udacity<br>
+                Duration: 4 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Version Control with Git')">Learn More</button>
+            </div>
+            <div class="course" id="course17">
+                <h3>Web Development Tools (Webpack, Babel)</h3>
+                <img src="Hackathon images/tools.jpeg" alt="Course Image">
+                <p>Platform: Ultimate courses<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Web Development Tools (Webpack, Babel)')">Learn More</button>
+            </div>
+            <div class="course" id="course18">
+                <h3>Full Stack Development Projects</h3>
+                <img src="Hackathon images/dev-project.jpeg" alt="Course Image">
+                <p>Platform: interviewbit<br>
+                Duration: 14 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Full Stack Development Projects')">Learn More</button>
+            </div>
+            <div class="course" id="course19">
+                <h3>Python Programming</h3>
+                <img src="Hackathon images/python.jpeg" alt="Course Image">
+                <p>Platform: w#schools<br>
+                Duration: 8 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Python Programming')">Learn More</button>
+            </div>
+            <div class="course" id="course20">
+                <h3>Data Analysis with Pandas</h3>
+                <img src="Hackathon images/pandas.jpeg" alt="Course Image">
+                <p>Platform: alison<br>
+                Duration: 6 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Data Analysis with Pandas')">Learn More</button>
+            </div>
+            <div class="course" id="course21">
+                <h3>Statistics for Data Science</h3>
+                <img src="Hackathon images/statistics.jpeg" alt="Course Image">
+                <p>Platform: Coursera<br>
+                Duration: 8 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Statistics for Data Science')">Learn More</button>
+            </div>
+            <div class="course" id="course22">
+                <h3>Machine Learning Algorithms</h3>
+                <img src="Hackathon images/ML algorithm.jpeg" alt="Course Image">
+                <p>Platform: aws<br>
+                Duration: 16 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Machine Learning Algorithms')">Learn More</button>
+            </div>
+            <div class="course" id="course23">
+                <h3>Deep Learning with TensorFlow and Keras</h3>
+                <img src="Hackathon images/DL.jpeg" alt="Course Image">
+                <p>Platform: Udacity<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Deep Learning with TensorFlow and Keras')">Learn More</button>
+            </div>
+            <div class="course" id="course24">
+                <h3>Big Data Technologies (Hadoop, Spark)</h3>
+                <img src="Hackathon images/big data.jpeg" alt="Course Image">
+                <p>Platform: SimpliLearn<br>
+                Duration: 8 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Big Data Technologies (Hadoop, Spark)')">Learn More</button>
+            </div>
+            <div class="course" id="course25">
+                <h3>Data Visualization (Matplotlib, Seaborn, Tableau)</h3>
+                <img src="Hackathon images/Data visual.jpeg" alt="Course Image">
+                <p>Platform: Geeksforgeeks<br>
+                Duration: 12 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Data Visualization (Matplotlib, Seaborn, Tableau)')">Learn More</button>
+            </div>
+            <div class="course" id="course26">
+                <h3>iOS Development with Swift</h3>
+                <img src="Hackathon images/ios dev.jpeg" alt="Course Image">
+                <p>Platform: hacking with swift<br>
+                Duration: 6 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('iOS Development with Swift')">Learn More</button>
+            </div>
+            <div class="course" id="course27">
+                <h3>Android Development with Kotlin</h3>
+                <img src="Hackathon images/kotlin.jpeg" alt="Course Image">
+                <p>Platform: Android Developer<br>
+                Duration: 8 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Android Development with Kotlin')">Learn More</button>
+            </div>
+            <div class="course" id="course28">
+                <h3>Cross-Platform Development with Flutter</h3>
+                <img src="Hackathon images/flutter.jpeg" alt="Course Image">
+                <p>Platform: ClassCentral<br>
+                Duration: 10 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Cross-Platform Development with Flutter')">Learn More</button>
+            </div>
+            <div class="course" id="course29">
+                <h3>React Native for Mobile Development</h3>
+                <img src="Hackathon images/native.jpeg" alt="Course Image">
+                <p>Platform: academind<br>
+                Duration: 8 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('React Native for Mobile Development')">Learn More</button>
+            </div>
+            <div class="course" id="course30">
+                <h3>Mobile UI/UX Design</h3>
+                <img src="Hackathon images/ui-ux.jpeg" alt="Course Image">
+                <p>Platform: My GreatLearning<br>
+                Duration: 9 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Mobile UI/UX Design')">Learn More</button>
+            </div>
+            <div class="course" id="course31">
+                <h3>Mobile App Testing</h3>
+                <img src="Hackathon images/testing.jpeg" alt="Course Image">
+                <p>Platform: Udemy<br>
+                Duration: 8 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Mobile App Testing')">Learn More</button>
+            </div>
+            <div class="course" id="course32">
+                <h3>Publishing and Marketing Mobile Apps</h3>
+                <img src="Hackathon images/marketing.jpeg" alt="Course Image">
+                <p>Platform: SimpliLearn<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Publishing and Marketing Mobile Apps')">Learn More</button>
+            </div>
+            <div class="course" id="course33">
+                <h3>Introduction to Cybersecurity</h3>
+                <img src="Hackathon images/intro to cyber.jpeg" alt="Course Image">
+                <p>Platform: Cisco<br>
+                Duration: 18 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Introduction to Cybersecurity')">Learn More</button>
+            </div>
+            <div class="course" id="course34">
+                <h3>Network Security Fundamentals</h3>
+                <img src="Hackathon images/security.jpeg" alt="Course Image">
+                <p>Platform: alison<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Network Security Fundamentals')">Learn More</button>
+            </div>
+            <div class="course" id="course35">
+                <h3>Ethical Hacking and Penetration Testing</h3>
+                <img src="Hackathon images/Hacking.jpeg" alt="Course Image">
+                <p>Platform: alison<br>
+                Duration: 6 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Ethical Hacking and Penetration Testing')">Learn More</button>
+            </div>
+            <div class="course" id="course36">
+                <h3>Security Information and Event Management (SIEM)</h3>
+                <img src="Hackathon images/SIEM.jpeg" alt="Course Image">
+                <p>Platform: SIEM<br>
+                Duration: 8 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Security Information and Event Management (SIEM)')">Learn More</button>
+            </div>
+            <div class="course" id="course37">
+                <h3>Cryptography</h3>
+                <img src="Hackathon images/crypto.jpeg" alt="Course Image">
+                <p>Platform: My GreatLearning<br>
+                Duration: 6 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Cryptography')">Learn More</button>
+            </div>
+            <div class="course" id="course38">
+                <h3>Cybersecurity Compliance and Standards</h3>
+                <img src="Hackathon images/standards.jpeg" alt="Course Image">
+                <p>Platform: nptel<br>
+                Duration: 7 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Cybersecurity Compliance and Standards')">Learn More</button>
+            </div>
+            <div class="course" id="course39">
+                <h3>Incident Response and Risk Management</h3>
+                <img src="Hackathon images/response.jpeg" alt="Course Image">
+                <p>Platform: ClassCentral<br>
+                Duration: 8 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Incident Response and Risk Management')">Learn More</button>
+            </div>
+            <div class="course" id="course40">
+                <h3>Cloud Fundamentals (AWS, Azure, Google Cloud)</h3>
+                <img src="Hackathon images/azure.jpeg" alt="Course Image">
+                <p>Platform: SimpliLearn<br>
+                Duration: 8 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Cloud Fundamentals (AWS, Azure, Google Cloud)')">Learn More</button>
+            </div>
+            <div class="course" id="course41">
+                <h3>Cloud Architecture and Infrastructure</h3>
+                <img src="Hackathon images/infra.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Cloud Architecture and Infrastructure')">Learn More</button>
+            </div>
+            <div class="course" id="course42">
+                <h3>DevOps on Cloud (CI/CD, Jenkins, Kubernetes)</h3>
+                <img src="Hackathon images/kubernetes.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('DevOps on Cloud (CI/CD, Jenkins, Kubernetes)')">Learn More</button>
+            </div>
+            <div class="course" id="course43">
+                <h3>Cloud Security</h3>
+                <img src="Hackathon images/cloud security.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Cloud Security')">Learn More</button>
+            </div>
+            <div class="course" id="course44">
+                <h3>Serverless Computing (AWS Lambda, Google Cloud Functions)</h3>
+                <img src="Hackathon images/lambda.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Serverless Computing (AWS Lambda, Google Cloud Functions)')">Learn More</button>
+            </div>
+            <div class="course" id="course45">
+                <h3>Cloud-native Development</h3>
+                <img src="Hackathon images/cloud native.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Cloud-native Development')">Learn More</button>
+            </div>
+            <div class="course" id="course46">
+                <h3>Cloud Migration and Deployment Strategies</h3>
+                <img src="Hackathon images/migration.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Cloud Migration and Deployment Strategies')">Learn More</button>
+            </div>
+            <div class="course" id="course47">
+                <h3>Introduction to AI and Python Programming</h3>
+                <img src="Hackathon images/AI python.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Introduction to AI and Python Programming')">Learn More</button>
+            </div>
+            <div class="course" id="course48">
+                <h3>Machine Learning with Scikit-Learn</h3>
+                <img src="Hackathon images/scikit.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Machine Learning with Scikit-Learn')">Learn More</button>
+            </div>
+            <div class="course" id="course49">
+                <h3>Deep Learning with TensorFlow and Keras</h3>
+                <img src="Hackathon images/keras.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Deep Learning with TensorFlow and Keras')">Learn More</button>
+            </div>
+            <div class="course" id="course50">
+                <h3>Natural Language Processing (NLP)</h3>
+                <img src="Hackathon images/NLP.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Natural Language Processing (NLP)')">Learn More</button>
+            </div>
+            <div class="course" id="course51">
+                <h3>Computer Vision</h3>
+                <img src="Hackathon images/vision.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Computer Vision')">Learn More</button>
+            </div>
+            <div class="course" id="course52">
+                <h3>Reinforcement Learning</h3>
+                <img src="Hackathon images/RL.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Reinforcement Learning')">Learn More</button>
+            </div>
+            <div class="course" id="course53">
+                <h3>AI Ethics and Policy</h3>
+                <img src="Hackathon images/policy.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('AI Ethics and Policy')">Learn More</button>
+            </div>
+            <div class="course" id="course54">
+                <h3>Introduction to Blockchain and Cryptocurrency</h3>
+                <img src="Hackathon images/currency.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Introduction to Blockchain and Cryptocurrency')">Learn More</button>
+            </div>
+            <div class="course" id="course55">
+                <h3>Developing Decentralized Applications (dApps)</h3>
+                <img src="Hackathon images/dapps.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Developing Decentralized Applications (dApps)')">Learn More</button>
+            </div>
+            <div class="course" id="course56">
+                <h3>Blockchain Security</h3>
+                <img src="Hackathon images/blockcheck.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Blockchain Security')">Learn More</button>
+            </div>
+            <div class="course" id="course57">
+                <h3>Introduction to DevOps</h3>
+                <img src="Hackathon images/intro to devops.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Introduction to DevOps')">Learn More</button>
+            </div>
+            <div class="course" id="course58">
+                <h3>Version Control with Git and GitHub</h3>
+                <img src="Hackathon images/git.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Version Control with Git and GitHub')">Learn More</button>
+            </div>
+            <div class="course" id="course59">
+                <h3>Infrastructure as Code (IaC) with Terraform</h3>
+                <img src="Hackathon images/iac.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Infrastructure as Code (IaC) with Terraform')">Learn More</button>
+            </div>
+            <div class="course" id="course60">
+                <h3>Introduction to Game Development</h3>
+                <img src="Hackathon images/Game Development.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Introduction to Game Development')">Learn More</button>
+            </div>
+            <div class="course" id="course61">
+                <h3>Game Design Principles</h3>
+                <img src="Hackathon images/principle.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Game Design Principles')">Learn More</button>
+            </div>
+            <div class="course" id="course62">
+                <h3>2D Game Development with Unity</h3>
+                <img src="Hackathon images/2d game.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('2D Game Development with Unity')">Learn More</button>
+            </div>
+            <div class="course" id="course63">
+                <h3>3D Game Development with Unreal Engine</h3>
+                <img src="Hackathon images/3d game.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('3D Game Development with Unreal Engine')">Learn More</button>
+            </div>
+            <div class="course" id="course64">
+                <h3>Mobile Game Development</h3>
+                <img src="Hackathon images/mobile game.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Mobile Game Development')">Learn More</button>
+            </div>
+            <div class="course" id="course65">
+                <h3>Introduction to Software Engineering</h3>
+                <img src="Hackathon images/ise.jpeg" alt="Course Image">
+                <p>Platform: Udemy<br>
+                Duration: 8 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Introduction to Software Engineering')">Learn More</button>
+            </div>
+            <div class="course" id="course66">
+                <h3>Object-Oriented Programming (OOP) with Java/C++</h3>
+                <img src="Hackathon images/low level.jpeg" alt="Course Image">
+                <p>Platform: w3schools<br>
+                Duration: 8 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Object-Oriented Programming (OOP) with Java/C++')">Learn More</button>
+            </div>
+            <div class="course" id="course67">
+                <h3>Software Development Life Cycle (SDLC)</h3>
+                <img src="Hackathon images/sdlc.jpeg" alt="Course Image">
+                <p>Platform: My GreatLearning<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('Software Development Life Cycle (SDLC)')">Learn More</button>
+            </div>
+            <div class="course" id="course68">
+                <h3>Git & Github</h3>
+                <img src="Hackathon images/git and github.jpeg" alt="Course Image">
+                <p>Platform: edX<br>
+                Duration: 5 weeks<br>
+                Free: Yes<br>
+                <button onclick="redirectToExternalLink('APIs and Web Services Development')">Learn More</button>
+            </div>
+           
+           
+        </div>
+    </div>
+
+    <div class="separation"></div>
+
+    <!-- team -->
+
+    <div id="ourteam">
+
+<section class="team" id="team">
+
+    <h1 class="heading">Our team</h1>
+ 
+    <div class="box-container" data-aos="fade-up">
+ 
+       <div class="box">
+          <img src="Hackathon images/fardeen.jpeg" alt="">
+          <h3>Fardeen Khan</h3>
+          <p>Graphics Designer</p>
+          <div class="share">
+             <a href="https://github.com/MD-FARDEEN-KHAN" target="_blank" class="fab fa-github"></a>
+             <a href="https://www.linkedin.com/in/md-fardeen-ismail-khan-9b1454260" target="_blank" class="fab fa-linkedin"></a>
+             <a href="https://www.instagram.com/kool_khan_1548?igsh=cXV1ejJkZXc3ZjRp" target="_blank" class="fab fa-instagram"></a>
+          </div>
+       </div>
+ 
+       <div class="box">
+          <img src="Hackathon images/Yaser.jpg" alt="">
+          <h3>T Mohamed Yaser</h3>
+          <p>UI/UX Developer</p>
+          <div class="share">
+             <a href="https://github.com/Yaser-123" target="_blank" class="fab fa-github"></a>
+             <a href="https://www.facebook.com/profile.php?id=61558544917584" target="_blank" class="fab fa-facebook-f"></a>
+             <a href="https://www.linkedin.com/in/mohamedyaser08/" target="_blank" class="fab fa-linkedin"></a>
+             <a href="https://www.instagram.com/tmohamedyaser/" target="_blank" class="fab fa-instagram"></a>
+          </div>
+       </div>
+ 
+       <div class="box">
+          <img src="Hackathon images/khizer.jpeg" alt="">
+          <h3>Mohammed Khizer</h3>
+          <p>Resourse Manager</p>
+          <div class="share">
+             <a href="#" target="_blank" class="fab fa-github"></a>
+             <a href="https://mail.google.com/mail/mu/mp/73/#tl/priority/%5Esmartlabel_personal" target="_blank" class="fab fa-google"></a>
+             <a href="https://www.linkedin.com/in/m-a-khizer-moinuddin-501484292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="fab fa-linkedin"></a>
+             
+          </div>
+       </div>
+ 
+     
+    </div>
+</div>
+ 
+ </section>
+
+ <div class="separation"></div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact us</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> 1ammar.yaser@gmail.com</p>
+                    <p><i class="fa-solid fa-code"></i> <a href="https://yaser-123.github.io/Yaser.github.io/" target="_blank"> Visit My Portfolio </a></p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/profile.php?id=61558544917584" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/4Grimmjaw04" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/tmohamedyaser/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/mohamedyaser08/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                   
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    
+    <footer>
+        <p>&copy; 2024 Career Roadmaps. All Rights Reserved.</p>
+    </footer>
+
+    <script src="effect.js"></script>
+
+    
+
+</body>
+</html>
